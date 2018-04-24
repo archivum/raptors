@@ -58,6 +58,7 @@
         ga('send', 'pageview');
     </script>
 
+
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
@@ -75,6 +76,10 @@
                    src="https://www.facebook.com/tr?id=818673738328259&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+
+    <!-- Scroll Reveal Animations -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 </head>
 
 <body>
@@ -85,6 +90,9 @@
 
 
 <!-- Page Preloader (only used on index pages) -->
+
+
+
 
 <div class="tp--preloader">
     <div class="tp--spinner loader">
@@ -108,14 +116,14 @@
                 <div class="row tp--col-xs-vertical-align align-middle align-content-center">
 
                     <div class="col-sm-12 col-md-5 col-lg-offset-1 hero-tickets-img">
-                        <a href="https://placeholder.com"><img src="images/tickets.png"></a>
+                        <img class="r-header" src="images/tickets.png">
                     </div>
 
                     <div class="col-sm-12 col-md-5 hero-bottom">
-                        <h2>Win a pair of FREE Raptors playoffs tickets!</h2>
-                        <p>Are you a sports team captain? Want to win some awesome Raps tickets and make attendance for
+                        <h2 class="r-header">Win a pair of FREE Raptors playoffs tickets!</h2>
+                        <p class="r-header">Are you a sports team captain? Want to win some awesome Raps tickets and make attendance for
                             your team a lot easier? sign up for our contest!</p>
-                        <a class="btn btn-lg btn-primary  tp--scroll" href="#about">Learn More</a>
+                        <a class="btn btn-lg btn-primary r-header tp--scroll" href="#about">Learn More</a>
                         <!--popup-modal-->
                     </div>
 
@@ -133,14 +141,16 @@
 ================================================== -->
 <section id="about" class="tp--section tp--features text-center">
 
+ <div class='r-howto'>
     <div class="page-header text-center">
-        <h2>How to Enter the Contest</h2>
-        <img src="images/raps_pb.png" alt="">
+        <h2 >How to Enter the Contest</h2>
+        <img src="images/raps_pb.png" class='img-fluid'>
     </div>
+</div>
 
     <div class="container">
 
-        <div class="row">
+        <div class="row r-content">
             <div class="col-sm-5 tp--feature col-lg-offset-1 ">
 
                 <h3>What is the Playing Bot?</h3>
@@ -152,7 +162,7 @@
                             allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-sm-4  tp--feature col-sm-offset-2 col-lg-offset-1">
+            <div class="col-sm-4 tp--feature col-sm-offset-2 col-lg-offset-1">
                 <!--<h3>Enter Now!</h3>-->
                 <!--<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>-->
                 <!-- Begin MailChimp Signup Form -->
@@ -161,7 +171,7 @@
                     <form action="https://bot.us18.list-manage.com/subscribe/post?u=c014736ed7597e8cbe36e87b8&amp;id=af258dce13"
                           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
                           class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
+                        <div id="mc_embed_signup_scroll" >
                             <h2>Enter Contest</h2>
 
                             <div class="mc-field-group">
@@ -228,6 +238,8 @@
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 </body>
 </html>

@@ -1843,6 +1843,7 @@ blockquote.blockquote-large {
 
 .tp--section img {
   margin: auto;
+  max-width: 100%;
 }
 
 .tp--section.tp--section-with-bg {
@@ -2041,6 +2042,7 @@ blockquote.blockquote-large {
   .tp--inner .tp--inner-header h2 {
     font-size: 2.6em;
   }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -2146,6 +2148,14 @@ blockquote.blockquote-large {
   line-height: 44px;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .owl-carousel .owl-item img {
+    width: 25%;
+    }
+
+
+}
 @media only screen and (min-width: 600px) {
   .tp--inner .tp--section .page-header i {
     font-size: 1.5em;
@@ -2153,6 +2163,7 @@ blockquote.blockquote-large {
     height: 55px;
     line-height: 55px;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
