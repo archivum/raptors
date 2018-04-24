@@ -14,6 +14,7 @@ $(document).ready(function() {
   magnificPopup();
   smoothScroll();
   contactForm();
+  scrollAnims(); 
 });
 
 
@@ -431,6 +432,45 @@ function contactForm() {
           return false;
       }
   });
+
+}
+
+function scrollAnims() {
+
+window.sr = ScrollReveal();
+
+    // Header
+    sr.reveal('.r-header', {
+        distance: '0',
+        duration: 2000,
+        origin: 'top',
+        opacity: 0,
+        scale: 1,
+        easing: 'cubic-bezier(0.23, 1, 0.32, 1)',
+        reset: false
+    }, 150);
+
+      // How to Enter
+    sr.reveal('.r-howto', {
+        distance: '0',
+        duration: 3000,
+        origin: 'top',
+        opacity: 0,
+        scale: 1,
+        easing: 'cubic-bezier(0.23, 1, 0.32, 1)',
+        reset: false
+    });
+
+     // Content
+    sr.reveal('.r-content', {
+        distance: '0',
+        duration: 3000,
+        origin: 'top',
+        opacity: 0,
+        scale: 1,
+        easing: 'cubic-bezier(0.23, 1, 0.32, 1)',
+        reset: false
+    });
 
 }
 
