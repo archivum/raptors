@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+
+    /*** INTRODUCTION ***/
+
+    .hero-tickets-img img {
+        max-width: 80vw;
+    }
+
+
+    /******************************************************
+    ******************     About    ***********************
+    ******************************************************/
+
+    .page-header img {
+        max-width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    /*** INTRODUCTION ***/
+
+    #intro{
+        height: fit-content;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    /*** INTRODUCTION ***/
+
+    #intro{
+        height: 100vh;
+    }
+}

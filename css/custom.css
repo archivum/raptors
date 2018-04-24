@@ -1,4 +1,81 @@
 /******************************************************
+******************     Base    ************************
+******************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    float: left;
+}
+
+input[type=submit] {
+    background-color: #0d89e7;
+    color: white;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=radio] {
+    background-color: #0d89e7;
+    color: white;
+    padding: 20px;
+    border: 10px;
+    float: left !important;
+    position: relative;
+}
+
+input[type=submit]:hover {
+    background-color: #0d89e7;
+}
+
+
+/******************************************************
+******************     Intro    ***********************
+******************************************************/
+
+.background-darkener {
+    background-color: rgba(26, 41, 52, 0.7);
+    height: 100%;
+    width: 100%;
+}
+
+.hero-bottom {
+    margin-bottom: 30px;
+}
+
+#intro .row, #intro .container {
+    height: 100%;
+}
+
+
+/******************************************************
+******************     Form    ************************
+******************************************************/
+
+
+.radio-description {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+/******************************************************
 **************     Privacy Page    ********************
 ******************************************************/
 

@@ -38,56 +38,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/themes/theme.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 
-    <!--Mailchimp Form Styles-->
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            resize: vertical;
-        }
-
-        label {
-            padding: 12px 12px 12px 0;
-            display: inline-block;
-            float: left;
-        }
-
-        input[type=submit] {
-            background-color: #0d89e7;
-            color: white;
-            padding: 0.8em 2em;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            float: right;
-        }
-
-        input[type=radio] {
-            background-color: #0d89e7;
-            color: white;
-            padding: 20px;
-            border: 10px;
-            float: left !important;
-            position: relative;
-        }
-
-        input[type=submit]:hover {
-            background-color: #0d89e7;
-        }
-
-        .radio-description {
-            font-weight: 500;
-            font-size: 12px;
-        }
-    </style>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function (b, o, i, l, e, r) {
@@ -147,36 +99,30 @@
 <!-- Hero Section
 ================================================== -->
 <section id="intro"
-         class="tp--intro tp--intro-dark tp--slider-single tp--owl-carousel-single owl-carousel owl-theme tp--intro-height-100"
-         data-carousel-options='{ "items": "1", "mouseDrag": false, "touchDrag": false, "responsive": { "0": { "items":"1" } } }'>
+         class="tp--intro tp--intro-dark tp--slider-single owl-theme" style="background: url('images/bg-intro-1.jpg'); background-size: cover;">
 
-    <div class="item tp--intro-content-left text-sm-center tp--with-image"
-         style="background: url('images/bg-intro-1.jpg');">
+    <div class="tp--intro-content-left text-sm-center tp--with-image background-darkener">
 
-        <div class="container">
+            <div class="container">
 
-            <div class="row tp--col-sm-vertical-align tp--col-xs-vertical-align tp--vertical-align-intro">
+                <div class="row tp--col-xs-vertical-align align-middle align-content-center">
 
-                <div class="col-sm-12 col-md-5 col-lg-offset-1">
-                    <div>
+                    <div class="col-sm-12 col-md-5 col-lg-offset-1 hero-tickets-img">
                         <a href="https://placeholder.com"><img src="images/tickets.png"></a>
                     </div>
-                </div>
 
-                <div class="col-sm-12 col-md-5 ">
-                    <div>
+                    <div class="col-sm-12 col-md-5 hero-bottom">
                         <h2>Win a pair of FREE Raptors playoffs tickets!</h2>
                         <p>Are you a sports team captain? Want to win some awesome Raps tickets and make attendance for
                             your team a lot easier? sign up for our contest!</p>
                         <a class="btn btn-lg btn-primary  tp--scroll" href="#about">Learn More</a>
                         <!--popup-modal-->
                     </div>
+
+
                 </div>
 
-
             </div>
-
-        </div>
 
     </div>
 
@@ -236,9 +182,9 @@
                                 <div class="response" id="mce-success-response" style="display:none"></div>
                             </div>
                             <div class="field-wrapper col-sm-12">
-                                <label> <input class="col-sm-1" type="radio" data-dojo-type="dijit/form/RadioButton"
+                                <label> <input class="col-xs-1" type="radio" data-dojo-type="dijit/form/RadioButton"
                                 >
-                                    <div class="radio-description col-sm-11">I'm a CAPTAIN of an amateur sports team and I want to
+                                    <div class="radio-description col-xs-11">I'm a CAPTAIN of an amateur sports team and I want to
                                         sign up for a chance to win tickets. I accept the <a href="./privacy.html">rules and regulations</a>
                                     </div>
                                 </label>
