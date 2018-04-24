@@ -7,6 +7,11 @@ $(window).on('load', function(){
 });
 
 
+$(window).on('unload', function(){
+    removeEvents();
+});
+
+
 
 $(document).ready(function() {
   owlCarousel();
@@ -14,6 +19,7 @@ $(document).ready(function() {
   magnificPopup();
   smoothScroll();
   contactForm();
+  triggerPixel();
 });
 
 
@@ -434,6 +440,23 @@ function contactForm() {
 
 }
 
+// --- Trigger the Facebook Pixel tracking on subscribe button click
+
+function triggerPixel() {
+    let button = $('#mc-embedded-subscribe');
+    button.click(
+        function() {
+            fbq('track', 'Lead');
+        });
+}
+
+
+// --- Trigger the Facebook Pixel tracking on subscribe button click
+
+function removeEvents() {
+    let button = $('#mc-embedded-subscribe');
+    button.off("click");
+}
 
 // --- Check if browser == IE, then add class to HTML tag (used for some IE CSS Bugs)
 
