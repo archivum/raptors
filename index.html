@@ -100,16 +100,32 @@
         ga('create', 'UA-XXXXX-X');
         ga('send', 'pageview');
     </script>
-    
+
     <!-- Facebook Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '818673738328259');
         fbq('track', 'PageView');
+    </script>
+    <script>
+        fbq('track', 'Lead');
     </script>
     <noscript><img height="1" width="1" style="display:none"
                    src="https://www.facebook.com/tr?id=818673738328259&ev=PageView&noscript=1"
@@ -159,7 +175,8 @@
                 <div class="col-sm-12 col-md-5 ">
                     <div>
                         <h2>Win a pair of FREE Raptors playoffs tickets!</h2>
-                        <p>Are you a sports team captain? Want to win some raps tickets and make attendance for your team a lot easier, sign up for our contest!</p>
+                        <p>Are you a sports team captain? Want to win some awesome Raps tickets and make attendance for
+                            your team a lot easier? sign up for our contest!</p>
                         <a class="btn btn-lg btn-primary  tp--scroll" href="#about">Learn More</a>
                         <!--popup-modal-->
                     </div>
@@ -180,25 +197,25 @@
 <section id="about" class="tp--section tp--features text-center">
 
     <div class="page-header text-center">
-        <h2>How to enter the contest</h2>
+        <h2>How to Enter the Contest</h2>
         <img src="images/raps_pb.png" alt="">
     </div>
 
     <div class="container">
 
         <div class="row">
-            <div class="col-sm-4 tp--feature col-lg-offset-1">
+            <div class="col-sm-5 tp--feature col-lg-offset-1 ">
 
                 <h3>What is the Playing Bot?</h3>
-                <p>The Playing bot is your personal assistant to tracking attendance for your amateur sports team. It's FREE and
-                    runs automatically every week.</p>
+                <p>The Playing bot is your personal bot assistant for tracking attendance on your sports team. It's FREE
+                    and runs tracks attendance automatically every week so you don't have to.</p>
 
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sXL2_V44MzM"
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yvZj0fRRk6k"
                             allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-sm-5  col-lg-offset-1 tp--feature">
+            <div class="col-sm-5  tp--feature">
                 <!--<h3>Enter Now!</h3>-->
                 <!--<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>-->
                 <!-- Begin MailChimp Signup Form -->
@@ -229,8 +246,9 @@
                             </div>
                             <div class="field-wrapper">
                                 <label> <input type="radio" data-dojo-type="dijit/form/RadioButton"
-                                                             >
-                                    <div class="radio-description">I'm a CAPTAIN of an amateur sports team and I want to sign up for a chance to win tickets.
+                                >
+                                    <div class="radio-description">I'm a CAPTAIN of an amateur sports team and I want to
+                                        sign up for a chance to win tickets.
                                     </div>
                                 </label>
                             </div>
