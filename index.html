@@ -89,22 +89,16 @@
         }
     </style>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function (b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                function () {
-                    (b[l].q = b[l].q || []).push(arguments)
-                });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = 'https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X');
-        ga('send', 'pageview');
-    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118127315-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118127315-2');
+</script>
+
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -173,7 +167,7 @@
 
                 <div class="col-sm-12 col-md-5 col-lg-offset-1">
                     <div>
-                        <a href="https://placeholder.com"><img src="images/tickets.png"></a>
+                        <img src="images/tickets.png">
                     </div>
                 </div>
 
@@ -201,10 +195,12 @@
 ================================================== -->
 <section id="about" class="tp--section tp--features text-center">
 
+ <div>
     <div class="page-header text-center">
         <h2>How to Enter the Contest</h2>
-        <img src="images/raps_pb.png" alt="">
+        <img src="images/raps_pb.png" class='img-fluid'>
     </div>
+</div>
 
     <div class="container">
 
