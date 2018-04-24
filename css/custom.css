@@ -1,0 +1,20 @@
+/******************************************************
+**************     Privacy Page    ********************
+******************************************************/
+
+.back-button {
+    position: fixed;
+    padding: 15px;
+    z-index: 99;
+}
+
+.back-button span {
+    text-decoration: none;
+    color: #38454e;
+    font-size: 20px;
+}
+
+.back-label {
+    display: inline-block;
+    text-decoration: none;
+}
