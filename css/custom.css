@@ -58,10 +58,6 @@ input[type=submit]:hover {
     margin-bottom: 30px;
 }
 
-#intro .row, #intro .container {
-    height: 100%;
-}
-
 
 /******************************************************
 ******************     Form    ************************
