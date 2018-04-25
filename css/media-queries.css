@@ -34,4 +34,13 @@
     #intro{
         height: 100vh;
     }
+
+    #intro .row {
+        margin-top: 50vh;
+        -webkit-transform: translate(0, -50%);
+        -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        -o-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
 }
